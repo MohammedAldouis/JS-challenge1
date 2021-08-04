@@ -1,0 +1,19 @@
+div{
+    background-color: black;
+    color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p , h1{
+    padding: 7px;
+}
+img{
+    width: 100%;
+}
+button{
+    background-color: rgb(184, 10, 10);
+    color: white;
+    padding: 20px;
+font-size: 20px;
+}
