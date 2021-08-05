@@ -12,11 +12,23 @@
         <h1> Login </h1>
     <form action="" method="GET">
     
-            <label for="fname">Email:</label><br>
-        <input type="email"   placeholder="Enter your Email"><br><br>
+            <label  for="fname" >Email:</label><br>
+        <input onclick="one()" id="mo" type="email"   placeholder="Enter your Email"><br><br>
     <label for="fname">password:</label><br>
-        <input type="password"   placeholder="Enter your password"><br><br>
+        <input  type="password"   placeholder="Enter your password"><br><br>
 <button>click me</button>
+
+<script>
+function one(){
+  document.getElementById('mo').focus()
+}
+
+
+
+</script>
+
+
+
         
 </div>
 </body>
